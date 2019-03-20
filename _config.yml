@@ -4,11 +4,11 @@
 
 # Site
 title: 前端程小程
-subtitle: 开心的就拍手
-description: 程序员
+subtitle: 
+description: 你说开心就拍手~
 keywords: javascript,js,css,html,node,react,eslint,jest,开发者,程序猿,程序媛,极客,编程,代码,开源,IT网站
 author: 一只程小程
-language: 
+language: zh-Hans
 timezone: 
 
 # URL
@@ -36,7 +36,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -57,8 +57,11 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
-  技术: tech
-	生活: life
+  学习笔记: notes
+  深入探究: study
+  一道面试题: interview
+  源码系列: original-code
+  生活点滴: life
 tag_map:
 
 # Date / Time format
@@ -76,7 +79,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: yilia
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -100,7 +103,7 @@ jsonContent:
     content: false
     slug: false
     updated: false
-    comments: false
+    comments: true
     link: false
     permalink: false
     excerpt: false
